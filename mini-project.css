@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    /* wireframing for me */
+    border : red solid 2px;
+}
+
+body {
+    background-color: lemonchiffon;
+}
+
+ul li {
+    display: inline;
+}
+
+header {
+    display: inline;
+}
+
+.navigation {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header {
+
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.content{
+
+}
+
+p {
+
+}
+
+.form {
+
+}
+
+contact {
+
+}
