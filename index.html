@@ -21,8 +21,8 @@
     </header>
     <main>   
       <!-- main with an image and caption -->
-    <!-- contact section with an email form -->
-     <section>
+      <!-- contact section with an email form -->
+     <section id="info">
       <h1 class="header">My Webpage</h1>
       <img class="info-img" src=" https://media.gettyimages.com/photos/portfolio-picture-id175431947?k=20&m=175431947&s=612x612&w=0&h=fVC-jmv4iaXKXNw8ZGQnv2I15lGSdCH6Q7ZvXEdqq20=" alt="temporary image for my portfolio">
       <p>This is the image caption</p>
@@ -33,16 +33,16 @@
      <section>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
      </section>
-     <section class="form">
+     <section id="contact">
       <h3>Contact Me</h3>
-      <section class="conact">
-        <label for="name">Name:</label>
-        <input type="text" name="fullName">
-        <label for="email">Email:</label>
-        <input type="text" name="email">
-        <input type="button" name="SEND" value="Send">
-      </section>
-     </section>
+      <section class="form">
+        <form>
+          <label for="name">Name:</label>
+          <input id="name" type="text" name="fullName" placeholder="Enter your name">
+          <label for="email">Email:</label>
+          <input id="email" type="text" name="email" placeholder="Enter your email">
+          <button type="submit">Submit</button>
+        </form>
     </main>
     <!-- footer -->
     <footer>

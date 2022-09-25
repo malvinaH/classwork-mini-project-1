@@ -4,7 +4,7 @@
     margin: 0;
 
     /* wireframing for me */
-    border : red solid 1px;
+    /* border : red solid 1px; */
 }
 
 body {
@@ -53,4 +53,34 @@ main {
 
 .header nav ul {
     list-style-type: none;
+}
+
+section {
+    padding: 10px;
+}
+
+#contact form {
+    width: 60%;
+    margin: auto;
+}
+
+#contact form input,
+#contact form label {
+    display: block;
+    margin: 5px;
+}
+
+#contact form input {
+    width: 100%;
+}
+
+button {
+    color: maroon;
+    border-radius: 15%;
+}
+
+footer {
+    background: #2a607c;
+    color: #e7e7e7;
+    text-align: center;
 }
