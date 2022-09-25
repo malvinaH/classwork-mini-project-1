@@ -4,25 +4,31 @@
     margin: 0;
 
     /* wireframing for me */
-    border : red solid 2px;
+    border : red solid 1px;
 }
 
 body {
-    background-color: lemonchiffon;
-}
-
-ul li {
-    display: inline;
+    padding-top: 100px;
+    background-color: #f7f1e3;
 }
 
 header {
     display: inline;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .navigation {
+    padding: 25px;
+    text-align: right;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+}
+ul li {
+    display: inline;
 }
 
 .header {
